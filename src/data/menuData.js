@@ -135,7 +135,7 @@ export const MENU = [
       { name: { ar: "كرتوش/رول", he: "קרטוש / רול", en: "Cartouche / Roll" }, price: "40", image: "/images/desserts/rol.jpeg" },
       { name: { ar: "سوفليه شوكولاته", he: "סופלה שוקולד", en: "Chocolate Soufflé" }, price: "40", image: "/images/desserts/ChocolateSouffle.jpeg" },
         { name: { ar: "بيتزا شوكولاته", he: "פיצה שוקולד", en: "Chocolate pizza" }, price: "50", image: "/images/desserts/pizza.jpeg" },
-        { name: { ar: "بيتزا شوكولاته", he: "פיצה שוקולד", en: "Chocolate pizza" }, price: "50", image: "/images/desserts/pizza.jpeg" },
+        { name: { ar: "كعكه كوكيز ", he:"קוקייז פאדג", en: "Cookie dough" }, price: "50", image: "/images/desserts/image.png" },
 
 
     ],

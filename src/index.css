@@ -1,0 +1,308 @@
+:root{
+  --green:#1f5c4d;
+  --green-dark:#0f3f33;
+  --cream:#f5edd9;
+  --red:#b53a2a;
+}
+
+/* reset */
+*{box-sizing:border-box;}
+
+body{
+  margin:0;
+  font-family: "Trebuchet MS", system-ui, sans-serif;
+}
+
+/* ========================= */
+/* WELCOME PAGE */
+/* ========================= */
+
+.welcome{
+  min-height:100vh;
+  display:grid;
+  place-items:center;
+  background:#6ea79a;
+  padding:20px;
+}
+
+.card{
+  width:min(500px,100%);
+  background:#f5edd9;
+  border:6px solid var(--green);
+  border-radius:20px;
+  padding:30px;
+  text-align:center;
+  box-shadow:0 20px 50px rgba(0,0,0,0.2);
+}
+
+.title{
+  margin:0;
+  font-size:32px;
+  color:var(--green);
+}
+
+.subtitle{
+  margin:10px 0 20px;
+  color:#555;
+}
+
+.lang-grid{
+  display:grid;
+  gap:12px;
+}
+
+.lang-btn{
+  padding:14px;
+  font-size:18px;
+  border-radius:12px;
+  border:3px solid var(--green);
+  background:white;
+  cursor:pointer;
+  transition:.2s;
+}
+
+.lang-btn:hover{
+  transform:translateY(-2px);
+  background:#e8f3ef;
+}
+
+.lang-btn.active{
+  background:var(--green);
+  color:white;
+}
+
+/* ========================= */
+/* MENU PAGE */
+/* ========================= */
+
+.menu-page{
+  min-height:100vh;
+  padding:22px;
+  display:grid;
+  place-items:center;
+  background:#6ea79a;
+}
+
+/* frame */
+
+.vintage-frame{
+  width:min(900px,100%);
+  border:14px solid var(--green);
+  outline:6px solid var(--green-dark);
+  border-radius:22px;
+  background:var(--cream);
+  position:relative;
+  overflow:hidden;
+}
+
+/* header */
+
+.vintage-header{
+  text-align:center;
+  padding:30px 20px 10px;
+}
+
+.ribbon{
+  display:inline-block;
+  background:var(--red);
+  color:white;
+  padding:8px 18px;
+  border-radius:30px;
+  font-weight:bold;
+  letter-spacing:3px;
+}
+
+.menu-word{
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  margin-top:10px;
+}
+
+.menu-word span{
+  width:55px;
+  height:55px;
+  display:grid;
+  place-items:center;
+  border-radius:50%;
+  border:4px solid var(--green);
+  font-size:26px;
+  font-weight:900;
+  background:white;
+}
+
+.brand-row{
+  margin-top:10px;
+  display:grid;
+  justify-items:center;
+}
+
+.logo{
+  width:90px;
+  border-radius:50%;
+  border:4px solid var(--green);
+}
+
+.brand{
+  margin-top:6px;
+  font-weight:bold;
+  color:var(--green);
+}
+
+/* language button */
+
+.ghost{
+  position:absolute;
+  top:18px;
+  inset-inline-start:18px;
+  padding:8px 12px;
+  border-radius:10px;
+  border:2px solid var(--green);
+  background:white;
+  cursor:pointer;
+}
+
+/* content */
+
+.menu-content{
+  padding:20px;
+  display:grid;
+  gap:20px;
+}
+
+.menu-section{
+  padding:10px;
+}
+
+/* category */
+
+.section-title{
+  margin:auto;
+  margin-bottom:14px;
+  width:fit-content;
+  padding:10px 20px;
+  border-radius:30px;
+  background:#2c8f70;
+  color:white;
+  border:4px solid var(--red);
+  font-weight:bold;
+  letter-spacing:2px;
+}
+
+/* items */
+
+.items{
+  display:grid;
+  gap:10px;
+}
+
+.item{
+  background:rgba(255,255,255,0.6);
+  border:2px solid rgba(31,92,77,0.3);
+  border-radius:14px;
+  padding:12px;
+}
+
+.item-top{
+  display:flex;
+  gap:12px;
+}
+
+/* image */
+
+.item-img{
+  width:75px;
+  height:75px;
+  border-radius:12px;
+  object-fit:cover;
+  border:2px solid var(--green);
+  cursor:pointer;
+}
+
+/* text */
+
+.item-main{
+  flex:1;
+}
+
+.item-row{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.item-name{
+  font-size:18px;
+  font-weight:700;
+  color:var(--green);
+}
+
+.item-dots{
+  flex:1;
+  border-bottom:3px dotted var(--green);
+}
+
+.item-price{
+  font-weight:800;
+  color:var(--green);
+}
+
+.item-extra{
+  font-size:13px;
+  margin-top:5px;
+  color:#444;
+}
+
+/* footer */
+
+.vintage-footer{
+  text-align:center;
+  padding:15px;
+  font-weight:bold;
+  color:var(--green);
+}
+
+/* ========================= */
+/* IMAGE MODAL */
+/* ========================= */
+
+.image-modal{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.85);
+  display:grid;
+  place-items:center;
+  z-index:1000;
+}
+.modal-img{
+  width: min(500px, 85vw);
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 14px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  animation: zoomIn .25s ease;
+}
+
+@keyframes zoomIn{
+  from{
+    transform: scale(.85);
+    opacity:0;
+  }
+  to{
+    transform: scale(1);
+    opacity:1;
+  }
+}
+.modal-x{
+  position:fixed;
+  top:20px;
+  right:20px;
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  border:none;
+  background:black;
+  color:white;
+  font-size:18px;
+  cursor:pointer;
+}

@@ -6,7 +6,8 @@ export const MENU = [
     items: [
       { name: { ar: "سلطة يونانية", he: "סלט יווני", en: "Greek Salad" }, price: "45", image: "/images/salads/greek-salad.jpeg" },
       { name: { ar: "سلطة حلومي", he: "סלט חלומי", en: "Halloumi Salad" }, price: "48", image: "/images/salads/halloumi-salad.jpeg" },
-      { name: { ar: "سلطة فتوش", he: "סלט פאטוש", en: "Fattoush Salad" }, price: "45", image: "/images/salads/fattoush-salad.jpeg" },
+      { name: { ar: "سلطة فتوش", he: "סלט פאטוש", en: "Fattoush Salad" }, price: "45",        extra: { ar: "جبنه +10", he: "גבינה +10", en: "Cheese +10" },
+       image: "/images/salads/fattoush-salad.jpeg" },
       { name: { ar: "سلطه شنتسل", he: "סלט שניצל", en: "Schnitzel Salad" }, price: "60", image: "" },
       {
         name: { ar: "باذنجان مشوي مع خبزه المحل", he: "חציל קלוי עם לחם הבית", en: "Grilled Eggplant with House Bread" },
@@ -90,8 +91,8 @@ export const MENU = [
         extra: { ar: "فطر/جبنه", he: "פטריות/גבינה", en: "Mushrooms/Cheese" },
         image: "/images/meals/Spaghetti3.jpeg",
       },
-      { name: { ar: "سباجيتي مع دجاج", he: "ספגטי עם עוף", en: "Spaghetti with Chicken" }, price: "65", image: "/images/meals/Spaghetti1.jpeg" },
-      { name: { ar: "موكباتس دجاج", he: "מוקבאטס עוף", en: "Mokabets Chicken" }, price: "60", image: "/images/meals/Mokabets.jpeg" },
+      { name: { ar: "سباجيتي مع دجاج", he: "ספגטי עם עוף", en: "Spaghetti with Chicken" }, price: "68", image: "/images/meals/Spaghetti1.jpeg" },
+      { name: { ar: "موكباتس دجاج", he: "מוקבאטס עוף", en: "Mokabets Chicken" }, price: "68", image: "/images/meals/Mokabets.jpeg" },
       { name: { ar: "توست جبنه", he: "טוסט גבינה", en: "Cheese Toast" }, price: "40", image: "/images/meals/to.jpeg" },
     ],
     notes: [

@@ -73,7 +73,7 @@ export const MENU = [
 
       {
         name: { ar: "صدر دجاج مع خضروات مشوية", he: "חזה עוף עם ירקות קלויים", en: "Chicken Breast with Grilled Vegetables" },
-        price: "68",
+        price: "70",
         image: "/images/meals/chi.jpeg",
       },
       { name: { ar: "شكشوكة مع خبزه المحل", he: "שקשוקה עם לחם הבית", en: "Shakshuka with House Bread" }, price: "50", image: "/images/meals/Shakshuka.jpeg" },
@@ -91,8 +91,8 @@ export const MENU = [
         extra: { ar: "فطر/جبنه", he: "פטריות/גבינה", en: "Mushrooms/Cheese" },
         image: "/images/meals/Spaghetti3.jpeg",
       },
-      { name: { ar: "سباجيتي مع دجاج", he: "ספגטי עם עוף", en: "Spaghetti with Chicken" }, price: "68", image: "/images/meals/Spaghetti1.jpeg" },
-      { name: { ar: "موكباتس دجاج", he: "מוקבאטס עוף", en: "Mokabets Chicken" }, price: "68", image: "/images/meals/Mokabets.jpeg" },
+      { name: { ar: "سباجيتي مع دجاج", he: "ספגטי עם עוף", en: "Spaghetti with Chicken" }, price: "70", image: "/images/meals/Spaghetti1.jpeg" },
+      { name: { ar: "موكباتس دجاج", he: "מוקבאטס עוף", en: "Mokabets Chicken" }, price: "70", image: "/images/meals/Mokabets.jpeg" },
       { name: { ar: "توست جبنه", he: "טוסט גבינה", en: "Cheese Toast" }, price: "40", image: "/images/meals/to.jpeg" },
     ],
     notes: [

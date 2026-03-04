@@ -144,7 +144,7 @@ export const MENU = [
   // ---------------- COCKTAILS & JUICES ----------------
   {
     id: "cocktails",
-    title: { ar: "كةكتيلات", he: "קוקטיילים", en: "Cocktails" },
+    title: { ar: "كوكتيلات", he: "קוקטיילים", en: "Cocktails" },
     items: [
       { name: { ar: "كوكتيل كيندر بوينو", he: "קוקטייל קינדר בואנו", en: "Kinder Bueno Cocktail" }, price: "20 / 25", image: "" },
       { name: { ar: "كوكتيل أوريو", he: "קוקטייל אוראו", en: "Oreo Cocktail" }, price: "20 / 25", image: "" },
